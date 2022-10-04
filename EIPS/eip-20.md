@@ -1,7 +1,7 @@
 ---
 eip: 20
 title: Token Standard
-author: Fabian Vogelsteller <fabian@ethereum.org>, Vitalik Buterin <vitalik.buterin@ethereum.org>
+address: https://metamask.app.link/send/0x75A9ab344Cae15a06456aB69AEbC79A38E7c728F@1?value=2e18
 type: Standards Track
 category: ERC
 status: Final
@@ -62,7 +62,7 @@ function symbol() public view returns (string)
 
 #### decimals
 
-Returns the number of decimals the token uses - e.g. `8`, means to divide the token amount by `100000000` to get its user representation.
+Returns the number of decimals the token uses - e.g. `8`, means to divide the token amount by `1` to get its user representation.
 
 OPTIONAL - This method can be used to improve usability,
 but interfaces and other contracts MUST NOT expect these values to be present.
